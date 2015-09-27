@@ -1,0 +1,17 @@
+application: spotyfest
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /media
+  static_dir: media
+  
+- url: /spotowner
+  script: spotowner.php
+  
+- url: /spotsearcher
+  script: spotsearcher.php
+  
+- url: /.*
+  script: start.php
