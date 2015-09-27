@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2BD0AFEEE1C206CF78C4E71 /* Pods_ispotyfest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43160C47E7AF706A32FB94B /* Pods_ispotyfest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		AEF75A9C1BB6BBB3008A8DD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF75A9B1BB6BBB3008A8DD1 /* AppDelegate.swift */; };
+		AEF75A9E1BB6BBB3008A8DD1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF75A9D1BB6BBB3008A8DD1 /* LoginViewController.swift */; };
+		AEF75AA11BB6BBB3008A8DD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF75A9F1BB6BBB3008A8DD1 /* Main.storyboard */; };
+		AEF75AA41BB6BBB3008A8DD1 /* ispotyfest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEF75AA21BB6BBB3008A8DD1 /* ispotyfest.xcdatamodeld */; };
+		AEF75AA61BB6BBB3008A8DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF75AA51BB6BBB3008A8DD1 /* Assets.xcassets */; };
+		AEF75AA91BB6BBB3008A8DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF75AA71BB6BBB3008A8DD1 /* LaunchScreen.storyboard */; };
+		AEF75AB41BB6BBB4008A8DD1 /* ispotyfestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF75AB31BB6BBB4008A8DD1 /* ispotyfestTests.swift */; };
+		AEF75ABF1BB6BBB4008A8DD1 /* ispotyfestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF75ABE1BB6BBB4008A8DD1 /* ispotyfestUITests.swift */; };
+		AEF75ACD1BB6FE6D008A8DD1 /* OfferSpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF75ACC1BB6FE6D008A8DD1 /* OfferSpotViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		AEF75ACF1BB70B0D008A8DD1 /* FindSpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF75ACE1BB70B0D008A8DD1 /* FindSpotViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		AEF75AD11BB7172B008A8DD1 /* InitialChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF75AD01BB7172B008A8DD1 /* InitialChoiceViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		AEF75AD31BB717FF008A8DD1 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF75AD21BB717FF008A8DD1 /* PeopleViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		AEF75AD51BB71CB3008A8DD1 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF75AD41BB71CB3008A8DD1 /* PersonViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		AEF75ADA1BB71F43008A8DD1 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF75AD81BB71F43008A8DD1 /* Person+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		AEF75ADB1BB71F43008A8DD1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF75AD91BB71F43008A8DD1 /* Person.swift */; settings = {ASSET_TAGS = (); }; };
+		AEF75ADE1BB747C8008A8DD1 /* P2PKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75ADD1BB747C8008A8DD1 /* P2PKit.framework */; settings = {ASSET_TAGS = (); }; };
+		AEF75AE01BB74808008A8DD1 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75ADF1BB74808008A8DD1 /* CoreBluetooth.framework */; };
+		AEF75AE21BB74811008A8DD1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75AE11BB74811008A8DD1 /* CoreLocation.framework */; };
+		AEF75AE51BB74829008A8DD1 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75AE31BB7481C008A8DD1 /* libicucore.tbd */; };
+		AEF75AE71BB74832008A8DD1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75AE61BB74832008A8DD1 /* CFNetwork.framework */; };
+		AEF75AE91BB74839008A8DD1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75AE81BB74839008A8DD1 /* Security.framework */; };
+		AEF75AEB1BB74842008A8DD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75AEA1BB74842008A8DD1 /* Foundation.framework */; };
+		AEF75AEF1BB74A5E008A8DD1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF75AEE1BB74A5E008A8DD1 /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		AEF75AF21BB74FDB008A8DD1 /* dummyprofile.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF75AF11BB74FDB008A8DD1 /* dummyprofile.png */; settings = {ASSET_TAGS = (); }; };
+		AEF75AF41BB75E61008A8DD1 /* PeerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF75AF31BB75E61008A8DD1 /* PeerController.swift */; settings = {ASSET_TAGS = (); }; };
+		AEF75AF71BB76119008A8DD1 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75AF51BB76119008A8DD1 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		AEF75AF81BB76119008A8DD1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75AF61BB76119008A8DD1 /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		AEF75AFA1BB76154008A8DD1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75AF91BB76154008A8DD1 /* Accounts.framework */; };
+		AEF75AFC1BB76161008A8DD1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75AFB1BB76161008A8DD1 /* AudioToolbox.framework */; };
+		AEF75AFE1BB76177008A8DD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75AFD1BB76177008A8DD1 /* CoreGraphics.framework */; };
+		AEF75B001BB76190008A8DD1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75AFF1BB7618F008A8DD1 /* QuartzCore.framework */; };
+		AEF75B021BB76197008A8DD1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75B011BB76197008A8DD1 /* Social.framework */; };
+		AEF75B041BB7619D008A8DD1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75B031BB7619D008A8DD1 /* StoreKit.framework */; };
+		AEF75B061BB761A3008A8DD1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75B051BB761A3008A8DD1 /* SystemConfiguration.framework */; };
+		AEF75B081BB761B2008A8DD1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75B071BB761B2008A8DD1 /* libz.tbd */; };
+		AEF75B0A1BB761C0008A8DD1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF75B091BB761C0008A8DD1 /* libsqlite3.tbd */; };
+		AEF75B0C1BB76C26008A8DD1 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF75B0B1BB76C26008A8DD1 /* AppState.swift */; settings = {ASSET_TAGS = (); }; };
+		AEF75B0E1BB7D846008A8DD1 /* dummylisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF75B0D1BB7D846008A8DD1 /* dummylisa.jpg */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEF75AB01BB6BBB4008A8DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF75A901BB6BBB3008A8DD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF75A971BB6BBB3008A8DD1;
+			remoteInfo = ispotyfest;
+		};
+		AEF75ABB1BB6BBB4008A8DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF75A901BB6BBB3008A8DD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF75A971BB6BBB3008A8DD1;
+			remoteInfo = ispotyfest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		141AC1A4139FD7FECE8BC3E1 /* Pods-ispotyfest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ispotyfest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ispotyfest/Pods-ispotyfest.release.xcconfig"; sourceTree = "<group>"; };
+		A43160C47E7AF706A32FB94B /* Pods_ispotyfest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ispotyfest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF75A981BB6BBB3008A8DD1 /* ispotyfest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ispotyfest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF75A9B1BB6BBB3008A8DD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEF75A9D1BB6BBB3008A8DD1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AEF75AA01BB6BBB3008A8DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEF75AA31BB6BBB3008A8DD1 /* ispotyfest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ispotyfest.xcdatamodel; sourceTree = "<group>"; };
+		AEF75AA51BB6BBB3008A8DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEF75AA81BB6BBB3008A8DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEF75AAA1BB6BBB3008A8DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF75AAF1BB6BBB4008A8DD1 /* ispotyfestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ispotyfestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF75AB31BB6BBB4008A8DD1 /* ispotyfestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ispotyfestTests.swift; sourceTree = "<group>"; };
+		AEF75AB51BB6BBB4008A8DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF75ABA1BB6BBB4008A8DD1 /* ispotyfestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ispotyfestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF75ABE1BB6BBB4008A8DD1 /* ispotyfestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ispotyfestUITests.swift; sourceTree = "<group>"; };
+		AEF75AC01BB6BBB4008A8DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF75ACC1BB6FE6D008A8DD1 /* OfferSpotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferSpotViewController.swift; sourceTree = "<group>"; };
+		AEF75ACE1BB70B0D008A8DD1 /* FindSpotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindSpotViewController.swift; sourceTree = "<group>"; };
+		AEF75AD01BB7172B008A8DD1 /* InitialChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialChoiceViewController.swift; sourceTree = "<group>"; };
+		AEF75AD21BB717FF008A8DD1 /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		AEF75AD41BB71CB3008A8DD1 /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		AEF75AD81BB71F43008A8DD1 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AEF75AD91BB71F43008A8DD1 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AEF75ADD1BB747C8008A8DD1 /* P2PKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = P2PKit.framework; sourceTree = "<group>"; };
+		AEF75ADF1BB74808008A8DD1 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		AEF75AE11BB74811008A8DD1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AEF75AE31BB7481C008A8DD1 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		AEF75AE61BB74832008A8DD1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AEF75AE81BB74839008A8DD1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AEF75AEA1BB74842008A8DD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AEF75AED1BB749D7008A8DD1 /* ispotyfest-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ispotyfest-Bridging-Header.h"; sourceTree = "<group>"; };
+		AEF75AEE1BB74A5E008A8DD1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AEF75AF11BB74FDB008A8DD1 /* dummyprofile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dummyprofile.png; sourceTree = "<group>"; };
+		AEF75AF31BB75E61008A8DD1 /* PeerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerController.swift; sourceTree = "<group>"; };
+		AEF75AF51BB76119008A8DD1 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		AEF75AF61BB76119008A8DD1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		AEF75AF91BB76154008A8DD1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		AEF75AFB1BB76161008A8DD1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AEF75AFD1BB76177008A8DD1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AEF75AFF1BB7618F008A8DD1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AEF75B011BB76197008A8DD1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		AEF75B031BB7619D008A8DD1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AEF75B051BB761A3008A8DD1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AEF75B071BB761B2008A8DD1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		AEF75B091BB761C0008A8DD1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AEF75B0B1BB76C26008A8DD1 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		AEF75B0D1BB7D846008A8DD1 /* dummylisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dummylisa.jpg; sourceTree = "<group>"; };
+		F45DA7F109C5700E5BF1D164 /* Pods-ispotyfest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ispotyfest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ispotyfest/Pods-ispotyfest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEF75A951BB6BBB3008A8DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF75B0A1BB761C0008A8DD1 /* libsqlite3.tbd in Frameworks */,
+				AEF75B081BB761B2008A8DD1 /* libz.tbd in Frameworks */,
+				AEF75B061BB761A3008A8DD1 /* SystemConfiguration.framework in Frameworks */,
+				AEF75B041BB7619D008A8DD1 /* StoreKit.framework in Frameworks */,
+				AEF75B021BB76197008A8DD1 /* Social.framework in Frameworks */,
+				AEF75B001BB76190008A8DD1 /* QuartzCore.framework in Frameworks */,
+				AEF75AFE1BB76177008A8DD1 /* CoreGraphics.framework in Frameworks */,
+				AEF75AE71BB74832008A8DD1 /* CFNetwork.framework in Frameworks */,
+				AEF75AFC1BB76161008A8DD1 /* AudioToolbox.framework in Frameworks */,
+				AEF75AFA1BB76154008A8DD1 /* Accounts.framework in Frameworks */,
+				AEF75AEB1BB74842008A8DD1 /* Foundation.framework in Frameworks */,
+				AEF75AF81BB76119008A8DD1 /* Parse.framework in Frameworks */,
+				AEF75AE91BB74839008A8DD1 /* Security.framework in Frameworks */,
+				AEF75AE51BB74829008A8DD1 /* libicucore.tbd in Frameworks */,
+				AEF75AE21BB74811008A8DD1 /* CoreLocation.framework in Frameworks */,
+				AEF75AE01BB74808008A8DD1 /* CoreBluetooth.framework in Frameworks */,
+				AEF75ADE1BB747C8008A8DD1 /* P2PKit.framework in Frameworks */,
+				AEF75AF71BB76119008A8DD1 /* Bolts.framework in Frameworks */,
+				A2BD0AFEEE1C206CF78C4E71 /* Pods_ispotyfest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF75AAC1BB6BBB4008A8DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF75AB71BB6BBB4008A8DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F9AB9948F0AF8A87FE739B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F45DA7F109C5700E5BF1D164 /* Pods-ispotyfest.debug.xcconfig */,
+				141AC1A4139FD7FECE8BC3E1 /* Pods-ispotyfest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEF75A8F1BB6BBB3008A8DD1 = {
+			isa = PBXGroup;
+			children = (
+				AEF75A9A1BB6BBB3008A8DD1 /* ispotyfest */,
+				AEF75AB21BB6BBB4008A8DD1 /* ispotyfestTests */,
+				AEF75ABD1BB6BBB4008A8DD1 /* ispotyfestUITests */,
+				AEF75AF01BB74FC4008A8DD1 /* Resources */,
+				AEF75A991BB6BBB3008A8DD1 /* Products */,
+				AEF75AEC1BB748D2008A8DD1 /* Frameworks */,
+				04F9AB9948F0AF8A87FE739B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AEF75A991BB6BBB3008A8DD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEF75A981BB6BBB3008A8DD1 /* ispotyfest.app */,
+				AEF75AAF1BB6BBB4008A8DD1 /* ispotyfestTests.xctest */,
+				AEF75ABA1BB6BBB4008A8DD1 /* ispotyfestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEF75A9A1BB6BBB3008A8DD1 /* ispotyfest */ = {
+			isa = PBXGroup;
+			children = (
+				AEF75ADC1BB71F6B008A8DD1 /* Model */,
+				AEF75A9B1BB6BBB3008A8DD1 /* AppDelegate.swift */,
+				AEF75AF31BB75E61008A8DD1 /* PeerController.swift */,
+				AEF75AEE1BB74A5E008A8DD1 /* Constants.swift */,
+				AEF75A9D1BB6BBB3008A8DD1 /* LoginViewController.swift */,
+				AEF75ACC1BB6FE6D008A8DD1 /* OfferSpotViewController.swift */,
+				AEF75AD01BB7172B008A8DD1 /* InitialChoiceViewController.swift */,
+				AEF75ACE1BB70B0D008A8DD1 /* FindSpotViewController.swift */,
+				AEF75A9F1BB6BBB3008A8DD1 /* Main.storyboard */,
+				AEF75AD41BB71CB3008A8DD1 /* PersonViewController.swift */,
+				AEF75AA51BB6BBB3008A8DD1 /* Assets.xcassets */,
+				AEF75AA71BB6BBB3008A8DD1 /* LaunchScreen.storyboard */,
+				AEF75AAA1BB6BBB3008A8DD1 /* Info.plist */,
+				AEF75AA21BB6BBB3008A8DD1 /* ispotyfest.xcdatamodeld */,
+				AEF75AD21BB717FF008A8DD1 /* PeopleViewController.swift */,
+				AEF75AED1BB749D7008A8DD1 /* ispotyfest-Bridging-Header.h */,
+			);
+			path = ispotyfest;
+			sourceTree = "<group>";
+		};
+		AEF75AB21BB6BBB4008A8DD1 /* ispotyfestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEF75AB31BB6BBB4008A8DD1 /* ispotyfestTests.swift */,
+				AEF75AB51BB6BBB4008A8DD1 /* Info.plist */,
+			);
+			path = ispotyfestTests;
+			sourceTree = "<group>";
+		};
+		AEF75ABD1BB6BBB4008A8DD1 /* ispotyfestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEF75ABE1BB6BBB4008A8DD1 /* ispotyfestUITests.swift */,
+				AEF75AC01BB6BBB4008A8DD1 /* Info.plist */,
+			);
+			path = ispotyfestUITests;
+			sourceTree = "<group>";
+		};
+		AEF75ADC1BB71F6B008A8DD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEF75AD81BB71F43008A8DD1 /* Person+CoreDataProperties.swift */,
+				AEF75AD91BB71F43008A8DD1 /* Person.swift */,
+				AEF75B0B1BB76C26008A8DD1 /* AppState.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AEF75AEC1BB748D2008A8DD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEF75B091BB761C0008A8DD1 /* libsqlite3.tbd */,
+				AEF75B071BB761B2008A8DD1 /* libz.tbd */,
+				AEF75B051BB761A3008A8DD1 /* SystemConfiguration.framework */,
+				AEF75B031BB7619D008A8DD1 /* StoreKit.framework */,
+				AEF75B011BB76197008A8DD1 /* Social.framework */,
+				AEF75AFF1BB7618F008A8DD1 /* QuartzCore.framework */,
+				AEF75AFD1BB76177008A8DD1 /* CoreGraphics.framework */,
+				AEF75AFB1BB76161008A8DD1 /* AudioToolbox.framework */,
+				AEF75AF91BB76154008A8DD1 /* Accounts.framework */,
+				AEF75AF51BB76119008A8DD1 /* Bolts.framework */,
+				AEF75AF61BB76119008A8DD1 /* Parse.framework */,
+				AEF75AEA1BB74842008A8DD1 /* Foundation.framework */,
+				AEF75AE81BB74839008A8DD1 /* Security.framework */,
+				AEF75AE61BB74832008A8DD1 /* CFNetwork.framework */,
+				AEF75AE31BB7481C008A8DD1 /* libicucore.tbd */,
+				AEF75AE11BB74811008A8DD1 /* CoreLocation.framework */,
+				AEF75ADF1BB74808008A8DD1 /* CoreBluetooth.framework */,
+				AEF75ADD1BB747C8008A8DD1 /* P2PKit.framework */,
+				A43160C47E7AF706A32FB94B /* Pods_ispotyfest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEF75AF01BB74FC4008A8DD1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEF75B0D1BB7D846008A8DD1 /* dummylisa.jpg */,
+				AEF75AF11BB74FDB008A8DD1 /* dummyprofile.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEF75A971BB6BBB3008A8DD1 /* ispotyfest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF75AC31BB6BBB4008A8DD1 /* Build configuration list for PBXNativeTarget "ispotyfest" */;
+			buildPhases = (
+				8BEB5BFAB2B4C48775404415 /* Check Pods Manifest.lock */,
+				AEF75A941BB6BBB3008A8DD1 /* Sources */,
+				AEF75A951BB6BBB3008A8DD1 /* Frameworks */,
+				AEF75A961BB6BBB3008A8DD1 /* Resources */,
+				49C325C3C6C37547E9EB6C99 /* Embed Pods Frameworks */,
+				481B1884C64C2FA1DF385E1E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ispotyfest;
+			productName = ispotyfest;
+			productReference = AEF75A981BB6BBB3008A8DD1 /* ispotyfest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEF75AAE1BB6BBB4008A8DD1 /* ispotyfestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF75AC61BB6BBB4008A8DD1 /* Build configuration list for PBXNativeTarget "ispotyfestTests" */;
+			buildPhases = (
+				AEF75AAB1BB6BBB4008A8DD1 /* Sources */,
+				AEF75AAC1BB6BBB4008A8DD1 /* Frameworks */,
+				AEF75AAD1BB6BBB4008A8DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF75AB11BB6BBB4008A8DD1 /* PBXTargetDependency */,
+			);
+			name = ispotyfestTests;
+			productName = ispotyfestTests;
+			productReference = AEF75AAF1BB6BBB4008A8DD1 /* ispotyfestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEF75AB91BB6BBB4008A8DD1 /* ispotyfestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF75AC91BB6BBB4008A8DD1 /* Build configuration list for PBXNativeTarget "ispotyfestUITests" */;
+			buildPhases = (
+				AEF75AB61BB6BBB4008A8DD1 /* Sources */,
+				AEF75AB71BB6BBB4008A8DD1 /* Frameworks */,
+				AEF75AB81BB6BBB4008A8DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF75ABC1BB6BBB4008A8DD1 /* PBXTargetDependency */,
+			);
+			name = ispotyfestUITests;
+			productName = ispotyfestUITests;
+			productReference = AEF75ABA1BB6BBB4008A8DD1 /* ispotyfestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEF75A901BB6BBB3008A8DD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Spotyfest;
+				TargetAttributes = {
+					AEF75A971BB6BBB3008A8DD1 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = V28CA6462X;
+					};
+					AEF75AAE1BB6BBB4008A8DD1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = AEF75A971BB6BBB3008A8DD1;
+					};
+					AEF75AB91BB6BBB4008A8DD1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = AEF75A971BB6BBB3008A8DD1;
+					};
+				};
+			};
+			buildConfigurationList = AEF75A931BB6BBB3008A8DD1 /* Build configuration list for PBXProject "ispotyfest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEF75A8F1BB6BBB3008A8DD1;
+			productRefGroup = AEF75A991BB6BBB3008A8DD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEF75A971BB6BBB3008A8DD1 /* ispotyfest */,
+				AEF75AAE1BB6BBB4008A8DD1 /* ispotyfestTests */,
+				AEF75AB91BB6BBB4008A8DD1 /* ispotyfestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEF75A961BB6BBB3008A8DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF75AF21BB74FDB008A8DD1 /* dummyprofile.png in Resources */,
+				AEF75B0E1BB7D846008A8DD1 /* dummylisa.jpg in Resources */,
+				AEF75AA91BB6BBB3008A8DD1 /* LaunchScreen.storyboard in Resources */,
+				AEF75AA61BB6BBB3008A8DD1 /* Assets.xcassets in Resources */,
+				AEF75AA11BB6BBB3008A8DD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF75AAD1BB6BBB4008A8DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF75AB81BB6BBB4008A8DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		481B1884C64C2FA1DF385E1E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ispotyfest/Pods-ispotyfest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49C325C3C6C37547E9EB6C99 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ispotyfest/Pods-ispotyfest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BEB5BFAB2B4C48775404415 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEF75A941BB6BBB3008A8DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF75ADB1BB71F43008A8DD1 /* Person.swift in Sources */,
+				AEF75AEF1BB74A5E008A8DD1 /* Constants.swift in Sources */,
+				AEF75AD11BB7172B008A8DD1 /* InitialChoiceViewController.swift in Sources */,
+				AEF75A9E1BB6BBB3008A8DD1 /* LoginViewController.swift in Sources */,
+				AEF75ADA1BB71F43008A8DD1 /* Person+CoreDataProperties.swift in Sources */,
+				AEF75AA41BB6BBB3008A8DD1 /* ispotyfest.xcdatamodeld in Sources */,
+				AEF75AD31BB717FF008A8DD1 /* PeopleViewController.swift in Sources */,
+				AEF75ACF1BB70B0D008A8DD1 /* FindSpotViewController.swift in Sources */,
+				AEF75AD51BB71CB3008A8DD1 /* PersonViewController.swift in Sources */,
+				AEF75A9C1BB6BBB3008A8DD1 /* AppDelegate.swift in Sources */,
+				AEF75B0C1BB76C26008A8DD1 /* AppState.swift in Sources */,
+				AEF75ACD1BB6FE6D008A8DD1 /* OfferSpotViewController.swift in Sources */,
+				AEF75AF41BB75E61008A8DD1 /* PeerController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF75AAB1BB6BBB4008A8DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF75AB41BB6BBB4008A8DD1 /* ispotyfestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF75AB61BB6BBB4008A8DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF75ABF1BB6BBB4008A8DD1 /* ispotyfestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEF75AB11BB6BBB4008A8DD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF75A971BB6BBB3008A8DD1 /* ispotyfest */;
+			targetProxy = AEF75AB01BB6BBB4008A8DD1 /* PBXContainerItemProxy */;
+		};
+		AEF75ABC1BB6BBB4008A8DD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF75A971BB6BBB3008A8DD1 /* ispotyfest */;
+			targetProxy = AEF75ABB1BB6BBB4008A8DD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEF75A9F1BB6BBB3008A8DD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF75AA01BB6BBB3008A8DD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEF75AA71BB6BBB3008A8DD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF75AA81BB6BBB3008A8DD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEF75AC11BB6BBB4008A8DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEF75AC21BB6BBB4008A8DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEF75AC41BB6BBB4008A8DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F45DA7F109C5700E5BF1D164 /* Pods-ispotyfest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ispotyfest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erzangel.ispotyfest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				STRIP_BITCODE_FROM_COPIED_FILES = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		AEF75AC51BB6BBB4008A8DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141AC1A4139FD7FECE8BC3E1 /* Pods-ispotyfest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ispotyfest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erzangel.ispotyfest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				STRIP_BITCODE_FROM_COPIED_FILES = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		AEF75AC71BB6BBB4008A8DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ispotyfestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erzangel.ispotyfestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ispotyfest.app/ispotyfest";
+			};
+			name = Debug;
+		};
+		AEF75AC81BB6BBB4008A8DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ispotyfestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erzangel.ispotyfestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ispotyfest.app/ispotyfest";
+			};
+			name = Release;
+		};
+		AEF75ACA1BB6BBB4008A8DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ispotyfestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erzangel.ispotyfestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ispotyfest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AEF75ACB1BB6BBB4008A8DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ispotyfestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erzangel.ispotyfestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ispotyfest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEF75A931BB6BBB3008A8DD1 /* Build configuration list for PBXProject "ispotyfest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF75AC11BB6BBB4008A8DD1 /* Debug */,
+				AEF75AC21BB6BBB4008A8DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF75AC31BB6BBB4008A8DD1 /* Build configuration list for PBXNativeTarget "ispotyfest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF75AC41BB6BBB4008A8DD1 /* Debug */,
+				AEF75AC51BB6BBB4008A8DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF75AC61BB6BBB4008A8DD1 /* Build configuration list for PBXNativeTarget "ispotyfestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF75AC71BB6BBB4008A8DD1 /* Debug */,
+				AEF75AC81BB6BBB4008A8DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF75AC91BB6BBB4008A8DD1 /* Build configuration list for PBXNativeTarget "ispotyfestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF75ACA1BB6BBB4008A8DD1 /* Debug */,
+				AEF75ACB1BB6BBB4008A8DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AEF75AA21BB6BBB3008A8DD1 /* ispotyfest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AEF75AA31BB6BBB3008A8DD1 /* ispotyfest.xcdatamodel */,
+			);
+			currentVersion = AEF75AA31BB6BBB3008A8DD1 /* ispotyfest.xcdatamodel */;
+			path = ispotyfest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AEF75A901BB6BBB3008A8DD1 /* Project object */;
+}

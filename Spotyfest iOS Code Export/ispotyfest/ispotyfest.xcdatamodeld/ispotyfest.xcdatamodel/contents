@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Person" representedClassName=".Person" syncable="YES">
+        <attribute name="acceptedName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="activeSince" attributeType="Date" syncable="YES"/>
+        <attribute name="ask" attributeType="Integer 16" minValueString="0" maxValueString="8" defaultValueString="0" syncable="YES"/>
+        <attribute name="bid" attributeType="Integer 16" minValueString="0" maxValueString="8" defaultValueString="0" syncable="YES"/>
+        <attribute name="email" attributeType="String" defaultValueString="r@raph.de" syncable="YES"/>
+        <attribute name="imageID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" defaultValueString="default" indexed="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Person" positionX="-63" positionY="-18" width="128" height="165"/>
+    </elements>
+</model>

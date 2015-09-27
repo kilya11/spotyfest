@@ -1,0 +1,19 @@
+PODS:
+  - SwiftEventBus (1.1.0)
+
+DEPENDENCIES:
+  - SwiftEventBus (from `https://github.com/cesarferreira/SwiftEventBus.git`)
+
+EXTERNAL SOURCES:
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+
+CHECKOUT OPTIONS:
+  SwiftEventBus:
+    :commit: 4b8cbb5a8227b3c29af75e0416689d26178733d8
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+
+SPEC CHECKSUMS:
+  SwiftEventBus: d334f7aecbddbd995c3de5c262cf35c72db550f3
+
+COCOAPODS: 0.38.2
